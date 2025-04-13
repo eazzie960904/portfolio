@@ -60,6 +60,7 @@
       height: 96%;
       margin-top: 45px;
       margin-left: 70px;
+      border-radius: 40% 60% 65% 35% / 40% 45% 55% 60%;
     }
   }
   .introInfo {
@@ -135,7 +136,7 @@
 
 .htmlList {
   width: 100%;
-  height: 100vh;
+  height: 120vh;
   padding: 50px;
   background: #000;
   .htmlLists {
@@ -294,8 +295,8 @@
     img {
       width: 70%;
       height: 80%;
-      margin-top: 100px;
-      margin-left: 50px;
+      padding-top: 100px;
+      padding-left: 50px;
     }
   }
 }
@@ -392,7 +393,7 @@ footer {
     }
   }
   .introduce {
-    height: 150vh;
+    height: 130vh;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
@@ -402,10 +403,11 @@ footer {
       display: flex;
       justify-content: center;
       img {
-        width: 100%;
-        height: 95vh;
+        width: 60%;
+        height: 60vh;
         margin-top: 0;
         margin-left: 0;
+        margin-bottom: 30px;
       }
     }
     .introButton {
@@ -420,7 +422,7 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 75vh;
+    height: 85vh;
     .htmlLists {
       display: flex;
       justify-content: center;
@@ -457,21 +459,25 @@ footer {
         img {
           width: 100%;
           height: 50vh;
-          padding: 0;
         }
       }
     }
   }
+
   .bestItems {
-    padding: 20px;
+    height: 100vh;
+    border: 1px solid #f00;
     .bestItemsSubs {
       display: flex;
       flex-direction: column;
       align-items: center;
-      gap: 10px;
-      .bestItemsSubsBoxes {
-        width: 70%;
-        height: 200px;
+      gap: 80px;
+      .bestItemsRow {
+        display: flex;
+        .bestItemsSubsBoxes {
+          width: 70%;
+          height: 150px;
+        }
       }
     }
   }
@@ -536,6 +542,7 @@ footer {
 
   .bestItems {
     height: 130%;
+    margin-top: 50px;
     .bestItemsSubs {
       gap: 35px;
       .bestItemsSubsBoxes {
